@@ -13,8 +13,7 @@ int main(){
   printf ("%d\n%d\n%d\n", vett[0], vett[1], vett[2]);
 
   somma=vett[0]+vett[1]+vett[2];
-  media=somma/3;
-
+  media=somma/float(3);
   printf("Somma: %d\nMedia: %.00f\n", somma, media);
   return 0;
 }
