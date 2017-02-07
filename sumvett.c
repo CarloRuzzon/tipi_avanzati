@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 int main(){
-  int vett[2], somma;
+  int vett[3], somma;
   float media;
   printf("Inserire il 1° numero:");
   scanf("%d",&vett[0]);
